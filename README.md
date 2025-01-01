@@ -43,7 +43,7 @@ pip install requests beautifulsoup4 psutil
    - Download the corresponding `.tar.gz` file.
    - Extract it into `~/.steam/root/compatibilitytools.d/`.
    - Update the `config.vdf` file to point to the new version.
-4. Restart Steam and select the latest GE-Proton version under Steam Play settings.
+The next time Steam starts it should have all apps referencing the latest Proton.
 
 ## Troubleshooting
 - **FileNotFoundError:** Ensure the `~/.steam/root/compatibilitytools.d/` directory exists and has the proper permissions.
